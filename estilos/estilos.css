@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
+/* font-family: 'Roboto', sans-serif; 
+font-family: 'Oswald', sans-serif;*/
+
+.link-cust{
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 18px;
+}
+.portada{
+    background-image: url(https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
+    opacity: 0.7;
+    background-size: cover;
+
+}
+a:hover{
+    color: rgb(41, 40, 40) !important;
+    font-weight: bolder;
+}
+.text-cust{
+    font-family: 'Roboto', sans-serif;
+    color: ;
+    font-size: 90px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.desc-cust{
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+#portada{
+    margin: 0px;
+    padding: 0px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    background-color: rgb(224, 219, 219);
+}
+.cont-cust{
+    background-color: white;
+}
+.form-cust{
+    background-color: rgb(224, 219, 219);
+}
+
+footer{
+    background-color: rgb(224, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+
+
+footer, footer a{
+    color: white;
+    font-weight: 100;
+    margin-top: 15%;
+}
+footer .fa-github{
+    font-size: 30px;
+    color: black;
+}
+footer .fa-linkedin-in{
+    color: black;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.fa-github:hover{
+    color: white;
+}
+.fa-linkedin-in:hover{
+    color: white;
+}
+
+.fotocv{
+    border-radius: 50%;
+}
