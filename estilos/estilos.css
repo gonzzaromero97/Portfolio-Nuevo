@@ -7,81 +7,221 @@ font-family: 'Oswald', sans-serif;*/
     color: darkslategray;
     font-size: 18px;
 }
-.portada{
-    background-image: url(https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80);
-    opacity: 0.7;
-    background-size: cover;
 
+header{
+    background-color: #1c1c1c ;
+}
+.fixed-top{
+    background-color: #1c1c1c;
+}
+
+.portada{
+    background-color: #0c0c0c ;
+    margin-top: 60px;
+}
+main{
+    background-color: #0c0c0c ;
+}
+body{
+    background-color: #0c0c0c ;
+}
+.navbar{
+    margin: 0px 0px;
+}
+.nav-item a{
+    color: #fff;
 }
 a:hover{
-    color: rgb(41, 40, 40) !important;
+    color: white !important;
     font-weight: bolder;
+}
+nav .active{
+    border: 1px solid #fff;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+
+.foto-portada{
+    border-radius: 50%;
+    width: 220px;
+    border: gainsboro solid 2.5px;
+}
+.foto-portada:hover{
+    width: 225px;
+}
+.presentacion{
+    margin-top: 20%;
 }
 .text-cust{
     font-family: 'Roboto', sans-serif;
-    color: ;
-    font-size: 90px;
+    color: #fff;
+    font-size: 60px;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 .desc-cust{
-    font-size: 24px;
+    font-size: 32px;
     font-family: 'Oswald', sans-serif;
+    color: gainsboro;
 }
-#portada{
-    margin: 0px;
-    padding: 0px;
 
-    background-repeat: no-repeat;
-    background-size: cover;
+/*Sobremi*/
+h2{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    color: gainsboro;
 }
-body{
-    background-color: rgb(224, 219, 219);
+.fa-briefcase{
+    padding-right: 10px;
 }
+.masdemi{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+#experiencia h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+#experiencia h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#experiencia h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+#experiencia p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.card-idioma{
+    border-radius: 10px;
+}
+#cards .fas{
+    font-size: 80px;
+    color: #0e76a8;
+    margin-top: 60px;
+}
+#cards h2{
+    font-size: 30px;
+    font-weight: 600px;
+    color: black;
+}
+#cards ul{
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+#formacion h2{
+    border: 3px solid #0e76a8;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent; 
+}
+#experiencia h2{
+    border: 3px solid #0e76a8;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent; 
+}
+
+/*portfolio*/
+.cardportfolio{
+    border: 1px solid #fff;
+    height: 600px;
+    font-size: 22px;
+}
+
+.btn-ptf{
+    background-color: #0e76a8;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+}
+.btn-ptf:hover{
+    background-color: #3c3c44;
+    font-size: 20px;
+    color: #fff;
+}
+#portfolio h3{
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+}
+.depcportfolio{
+    padding: 0px;
+    margin-top: 10px;
+}
+#porfolio footer{
+    margin: 0px;
+}
+
+
+
+/*portfolio*/
+
 .cont-cust{
     background-color: white;
 }
 .form-cust{
-    background-color: rgb(224, 219, 219);
+    background-color: #0c0c0c;
+}
+.form-control{
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif; 
+}
+.formfont{
+    font-family: 'Oswald', sans-serif;
+    font-size: 21px;
+}
+.btn-light:hover{
+    background-color: #0e76a8;
+    color: #fff;
 }
 
 footer{
-    background-color: rgb(224, 219, 219);
+    background-color:  #3c3c44 ;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    padding: 15px 0px;
+    position: relative;
+    bottom: 0px;
 }
-
-
 
 footer, footer a{
     color: white;
-    font-weight: 100;
-    margin-top: 15%;
 }
+
 footer .fa-github{
-    font-size: 30px;
-    color: black;
+    font-size: 27px;
+    color: #fff;;
+    margin: 10px ;
 }
 footer .fa-linkedin-in{
-    color: black;
-    font-size: 20px;
-    border: 0px;
-    height: 32px;
-    width: 32px;
-    text-align: center;
-    padding: 8px 0 0 0;
-    border-radius: 80px;
-    margin: 0 8px;
+    font-size: 27px;
+    margin: 10px ;
+}
+footer .fa-twitter{
+    font-size: 25px;
+    margin: 10px ;
 }
 .fa-github:hover{
     color: white;
 }
 .fa-linkedin-in:hover{
-    color: white;
+    color: #0e76a8;
+
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+
 }
 
-.fotocv{
-    border-radius: 50%;
-}
